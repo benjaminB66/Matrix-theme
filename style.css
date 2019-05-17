@@ -1,0 +1,149 @@
+.firstText{
+    display: none;
+}
+
+.intro, .pilules{
+    margin: auto;
+    text-align: center;
+}
+
+body{
+    background-color: black;
+        color: rgb(52, 216, 28);
+    font-size: 20px;
+    font-family: "courier";
+}
+
+.avatar{
+    width: 100px;
+  height: 100px;
+  border-radius: 50%;
+    vertical-align: middle;
+}
+/********* VIDEO ********/
+
+
+#myVideo, #myVideo2 {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto;
+  height: auto;
+    background-size: cover;
+}
+
+#enterName, #matrice {
+    display: none;
+}
+
+#welcome{
+    margin-bottom: 100px;
+}
+
+
+.firstValidation, .firstText{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.firstText{
+    border: solid 5px green;
+    width: 80%;
+    height: auto;
+   margin-left: auto;
+    margin-right: auto;   
+}
+
+
+
+
+/********        PILULES    *********/
+.interaction{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.blueBtn button  {
+    color: dodgerblue;
+    height: 40px;
+    width: auto; 
+    font-size: 15px;
+    border-radius: 60px;
+}
+
+.blueBtn button:hover {
+    background-color: dodgerblue;
+}
+
+.blueBtn {
+    margin-top: auto;
+}
+
+.redBtn button  {
+    color: red;
+    height: 40px;
+    width: auto; 
+    font-size: 15px;
+    border-radius: 60px;
+}
+
+.redBtn button:hover {
+    background-color: red;
+}
+
+.redBtn {
+    margin-top: auto;
+}
+
+.pillImg{
+    height: auto;
+    width: 70%;
+}
+
+
+form, #result {
+  margin: auto;
+  margin-bottom: 20px;
+  width: 300px;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+span {
+  margin: 10px;
+}
+
+
+
+#leftText{
+    float: left;
+    display: none;
+    width: 50%;
+}
+
+#rightText{
+    float: right;
+    display: none;
+    width: 50%;
+}
+
+
+#afterValid{
+    display: none;
+    font-size: 30px;
+}
+
+
+
+
+@media only screen and (max-width: 1200px) {
+  #myVideo {
+    width: 100%;
+    height: auto;
+  }
+}
+

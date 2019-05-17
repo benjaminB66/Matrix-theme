@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<title></title>    
+<link rel="stylesheet" href="style.css">
+    
+    </head>
+    <body>
+       
+  <div class="intro">
+         
+         <h1> Matrix</h1>
+     
+         <p id="demo"> </p>
+         <p id="demo2"></p>  
+         
+      
+    <div id="enterName"> 
+         <input type="text" id="yourName" placeholder="votre nom" required="text" />
+         <input type="submit" id="submitName" onclick="valEnter()" />
+    </div>
+         
+         
+         <p id="welcome"></p>
+         
+    <div id="matrice">
+             <p> Tu veux connaitre ce qu'est la matrice? </p>
+              
+
+         <label id="knowMatrice"><input type="text" name="choice" id="firstChoice" placeholder="oui ou non" onFocus="javascript:this.value=''" />
+             
+             <div class="firstValidation" id="firstValidation"></div>
+             
+           <input type="submit" value="valider" id="submit-firstBtn" required name="choice" />
+                
+         </label>
+    </div>
+         
+
+        <div class="firstText" id="firstText">
+            <p> La Matrice est universelle, elle est omniprésente. Elle est avec nous ici en ce moment même, tu la vois chaque fois que tu regardes par la fenêtre ou lorsque tu allumes la télévision. Tu ressens sa présence quand tu pars au travail, quand tu vas à l'église ou quand tu paies tes factures. Elle est le monde que l'on superpose à ton regard pour t'empêcher de voir la vérité.</p>
+            
+             <br>
+
+            <button class="nextPage" id="nextPage">Maintenant passons a l'Etape suivante</button>
+        
+        </div>
+         
+  </div>
+
+        <script type="text/javascript" src="js.js"></script>
+    </body>
+</html>

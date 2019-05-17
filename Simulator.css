@@ -1,0 +1,113 @@
+body, html{
+    font-size: 20px;
+    font-family: "courier";
+    width: 100%;
+    height: auto;
+}
+
+
+#neoImg{
+ margin-left: 800px;
+}
+
+
+
+#btnGroup {
+    border: solid 4px brown;
+    position: absolute;
+    top: 200px;
+   max-width: 600px;
+    margin-bottom: 500px;
+   width: 100%;
+}
+
+.btnDress{
+    color: white;
+    background-color: green;
+    display: block;
+    border: 1px solid;
+    font-size: 20px;
+    width: 50%;
+    border-radius: 8px;
+    margin:2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    text-align: center;
+}
+
+.btnMap{
+    background-color: midnightblue;
+    color: white;
+    display: block;
+    font-size: 20px;
+    border: 1px solid;
+    width: 50%;
+    border-radius: 8px;
+    margin:2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btnMap:hover{
+    background-color: steelblue;
+}
+
+.btnMap:nth-child(5){
+    background-color: brown;
+    margin-top: 15px; 
+    margin-bottom: 20px;
+}
+
+.btnMap:nth-child(5):hover{
+    background-color: darkred;
+}
+
+
+.btnDress:nth-child(1):hover{
+    background-color: red;
+    color: white;
+}
+
+.btnDress:nth-child(2):hover{
+    background-color: midnightblue;
+    color: white;
+}
+
+.btnDress:nth-child(3):hover{
+    background-color: saddlebrown;
+    color: white;
+}
+
+.btnDress:nth-child(4):hover{
+    background-color: black;
+    color: white;
+}
+
+.btnDressContainer{
+    margin-bottom: 15px;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+    #btnGroup {
+      width: 100%;
+        top: 0;
+        margin: auto;
+        position: relative;
+        margin-bottom: 20px;
+    }
+    
+
+    #neoImg{
+    margin-left: 100px;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<title></title>    
+<link rel="stylesheet" href="style.css">
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+<script> 
+$(document).ready(function(){
+  $(".redBtn").click(function(){
+    $("#rightText").slideToggle("slow");
+    $("#leftText").slideUp("slow");
+  });
+});
+    
+    $(document).ready(function(){
+  $(".blueBtn").click(function(){
+    $("#leftText").slideToggle("slow");
+      $("#rightText").slideUp("slow");
+  });
+});
+</script>
+    
+    </head>
+    <body>
+        
+ <div class="pilules">
+         
+            <h2>Tu vas devoir faire un choix... </h2>
+         
+    <div class="interaction">
+         
+         <div class="blueBtn">
+             <button onclick="document.getElementById('myImage').src='imgPills/imgPillsBlue.jpg'">Pilule bleue</button>
+         </div>
+         
+                    <img id="myImage" src=imgPills/imgPillsNb.png.jpg>
+        
+        <div class="redBtn">     
+             <button onclick="document.getElementById('myImage').src='imgPills/imgPillsRed.jpg'">Pilule rouge</button>
+        </div>
+    </div>
+
+        <div id=leftText>
+         <p>Choisis la pilule bleue et tout s'arrête, après tu pourras faire de beaux rêves et penser ce que tu veux.</p>
+            <button id="validPillBlue">Valider</button>
+            <p id="pLeftText"></p>
+        </div>
+     
+        <div id=rightText>
+          <p> Tu restes au pays des merveilles, et on descend avec le lapin blanc au fond du gouffre.</p>
+            <button id="validPillRed">Valider</button>
+           </div> 
+             <div id="afterValid"><p>N'oublie pas, je  ne t'offre que la vérité rien de        plus</p>
+            </div>
+        
+
+</div>
+        
+        <script type="text/javascript" src="pilules.js"></script>
+    </body>
+</html>
